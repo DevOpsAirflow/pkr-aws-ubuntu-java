@@ -42,7 +42,7 @@ build {
 
     inline = [
       "echo Install Open JDK 8 - START",
-      "sleep 20",
+      "sleep 10",
       "sudo apt-get update",
       "sudo apt-get install -y openjdk-8-jdk",
       "echo Install Open JDK 8 - SUCCESS",
